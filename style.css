@@ -1,5 +1,87 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Tajawal&display=swap');
+
 *, ::after, ::before {
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.header-container {
+    height: 180px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.resize-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.text-h {
+    height: 200px;
+    text-align: center;
+}
+
+.text-h h1 {
+    line-height: 200px;
+    font-size: 60px;
+}
+
+
+.card-position {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+
+}
+.card-align {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 400px;
+    display: flex;
+    width: 1000px;
+}
+
+
+.card-container {
+    width: 50%;
+
+}
+
+.card-texte {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card-texte p {
+font-size: 18px;
+}
+
+.link-card {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    padding: 15px;
+    color: white;
+    background-color: #12A19B;
+    border-radius: 6px;
+    transition: background 300ms ease-in-out;
+}
+
+.link-card:hover {
+    background-color: #107973;
+
 }
